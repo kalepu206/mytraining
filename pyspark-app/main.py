@@ -8,6 +8,7 @@ def main():
     result = counter.count_words()
     for word, count in result.items():
         print(f"{word}: {count}")
+        print("Local version: This is my updated word counter.")
 
 if __name__ == "__main__":
     main()
