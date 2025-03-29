@@ -8,6 +8,7 @@ def main():
     result = counter.count_words()
     for word, count in result.items():
         print(f"{word}: {count}")
+        print("Remote version: GitHub edit made to main.py")
 
 if __name__ == "__main__":
     main()
